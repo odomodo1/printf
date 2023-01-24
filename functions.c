@@ -46,7 +46,7 @@ int flags, int width, int precision, int size)
 			str = "      ";
 	}
 	while (str[length] != '\0')
-		lenth++;
+		length++;
 
 	if (precision >= 0 && precision < length)
 		length = precision;
